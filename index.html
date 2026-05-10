@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yaroslav Khomko — Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- ── Navbar ──────────────────────────────────── -->
+    <header class="navbar" id="navbar">
+      <nav class="container nav-inner">
+        <a href="#hero" class="nav-logo">YK</a>
+
+        <ul class="nav-links" id="nav-links" role="list">
+          <li>
+            <a href="#about" class="nav-link"
+              ><span class="nav-num">01</span>About</a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="nav-link"
+              ><span class="nav-num">02</span>Skills</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="nav-link"
+              ><span class="nav-num">03</span>Projects</a
+            >
+          </li>
+          <li>
+            <a href="#education" class="nav-link"
+              ><span class="nav-num">04</span>Education</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link"
+              ><span class="nav-num">05</span>Contact</a
+            >
+          </li>
+        </ul>
+
+        <button
+          class="menu-btn"
+          id="menu-btn"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ── Hero ───────────────────────────────────── -->
+      <section class="hero" id="hero">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+        </div>
+
+        <div class="container hero-grid">
+          <div class="hero-left">
+            <div class="hero-badge reveal">
+              <span class="badge-dot"></span>
+              Open to internship opportunities
+            </div>
+
+            <h1 class="reveal" data-delay="1">Yaroslav<br />Khomko</h1>
+
+            <p class="hero-role reveal" data-delay="2">
+              <span class="mono prompt"> > </span>
+              IT Intern / Trainee Candidate — Python · Data · Backend
+            </p>
+
+            <p class="hero-desc reveal" data-delay="3">
+              Computer Science and Econometrics student at AGH University in
+              Kraków. I build analytical tools, explore machine learning, and
+              write practical backend code — looking for a position where I can
+              grow alongside experienced developers.
+            </p>
+
+            <div class="hero-actions reveal" data-delay="3">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+            </div>
+
+            <div class="hero-stats reveal" data-delay="4">
+              <div class="stat">
+                <span class="stat-num">6+</span>
+                <span class="stat-label">Programming<br />languages</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">4</span>
+                <span class="stat-label">GitHub<br />projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">4</span>
+                <span class="stat-label">Spoken<br />languages</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num">2+</span>
+                <span class="stat-label">Years of<br />CS study</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right reveal" data-delay="2">
+            <div class="photo-ring">
+              <div class="photo-frame">
+                <img
+                  src="images/screen.png"
+                  alt="Yaroslav Khomko"
+                  class="hero-photo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── About ──────────────────────────────────── -->
+      <section class="section alt-section" id="about">
+        <div class="container about-grid">
+          <div class="reveal">
+            <div class="section-tag"><span class="mono">01</span> About me</div>
+            <h2>
+              Software development,<br /><em>data</em> and machine learning
+            </h2>
+          </div>
+          <div class="reveal" data-delay="1">
+            <p>
+              I'm a Computer Science and Econometrics student at AGH University
+              in Kraków, interested in software development, data analysis and
+              machine learning. I'm looking for an internship or trainee
+              position where I can develop practical engineering skills, work on
+              real projects and learn from experienced developers.
+            </p>
+            <p>
+              I have experience with Python, Java, SQL, Git and academic team
+              projects that combine programming, data and business-oriented
+              analysis. I enjoy connecting code to real problems.
+            </p>
+            <div class="tags">
+              <span>Python</span>
+              <span>Data Analysis</span>
+              <span>Machine Learning</span>
+              <span>Backend Dev</span>
+              <span>Econometrics</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Skills ─────────────────────────────────── -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-tag">
+              <span class="mono">02</span> Technologies
+            </div>
+            <h2>What I <em>work with</em></h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-item reveal">
+              <div class="skill-meta">
+                <span class="skill-name">Python</span>
+                <span class="skill-level mono">Proficient · 78%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-level="78"></div>
+              </div>
+            </div>
+
+            <div class="skill-item reveal" data-delay="1">
+              <div class="skill-meta">
+                <span class="skill-name">Git &amp; GitHub</span>
+                <span class="skill-level mono">Proficient · 80%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-level="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-item reveal">
+              <div class="skill-meta">
+                <span class="skill-name">SQL</span>
+                <span class="skill-level mono">Intermediate · 68%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-level="68"></div>
+              </div>
+            </div>
+
+            <div class="skill-item reveal" data-delay="1">
+              <div class="skill-meta">
+                <span class="skill-name">Data Analysis</span>
+                <span class="skill-level mono">Intermediate · 72%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-level="72"></div>
+              </div>
+            </div>
+
+            <div class="skill-item reveal">
+              <div class="skill-meta">
+                <span class="skill-name">Java</span>
+                <span class="skill-level mono">Familiar · 62%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-level="62"></div>
+              </div>
+            </div>
+
+            <div class="skill-item reveal" data-delay="1">
+              <div class="skill-meta">
+                <span class="skill-name">R &amp; Statistics</span>
+                <span class="skill-level mono">Familiar · 64%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-level="64"></div>
+              </div>
+            </div>
+
+            <div class="skill-item reveal">
+              <div class="skill-meta">
+                <span class="skill-name">Machine Learning</span>
+                <span class="skill-level mono">Familiar · 58%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-level="58"></div>
+              </div>
+            </div>
+
+            <div class="skill-item reveal" data-delay="1">
+              <div class="skill-meta">
+                <span class="skill-name">HTML / CSS / JS</span>
+                <span class="skill-level mono">Familiar · 60%</span>
+              </div>
+              <div class="skill-track">
+                <div class="skill-fill" data-level="60"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-tags-row reveal" data-delay="2">
+            <span class="mono skills-also-label">Also:</span>
+            <div class="tags">
+              <span>pandas</span>
+              <span>NumPy</span>
+              <span>matplotlib</span>
+              <span>C#</span>
+              <span>C/C++</span>
+              <span>ASP.NET</span>
+              <span>Linux</span>
+              <span>Tkinter</span>
+              <span>MkDocs</span>
+              <span>RStudio</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Projects ───────────────────────────────── -->
+      <section class="section alt-section" id="projects">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-tag"><span class="mono">03</span> Projects</div>
+            <h2>Selected <em>work</em></h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal" data-delay="1">
+              <div class="project-top">
+                <div>
+                  <h3>Stock Data Analysis App</h3>
+                  <p class="project-tech mono">
+                    Python · Tkinter · pandas · matplotlib
+                  </p>
+                </div>
+              </div>
+              <p class="project-desc">
+                Desktop application for stock data analysis with a GUI. Includes
+                statistical analysis, linear regression, Bollinger Bands and
+                data visualisation. Combines programming, financial data
+                processing and analytical interpretation.
+              </p>
+              <a
+                href="https://github.com/SorryTea/stat-anlysis-project"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                >View on GitHub →</a
+              >
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <div>
+                  <h3>News Sentiment Analysis</h3>
+                  <p class="project-tech mono">
+                    Python · NLP · sentiment scoring
+                  </p>
+                </div>
+              </div>
+              <p class="project-desc">
+                Proof of concept for analysing financial news headlines and
+                estimating sentiment. Scoring mechanism based on sentiment,
+                source reliability and recency — generates buy / observe / sell
+                signals from aggregated news scores.
+              </p>
+              <a
+                href="https://github.com/SorryTea/news-sentiment-poc"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                >View on GitHub →</a
+              >
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-top">
+                <div>
+                  <h3>Bitcoin Price Prediction</h3>
+                  <p class="project-tech mono">
+                    Python · NumPy · pandas · matplotlib
+                  </p>
+                </div>
+              </div>
+              <p class="project-desc">
+                Regression models for predicting Bitcoin closing price from
+                historical financial data. Implemented linear regression, k-NN
+                and a simple neural network <em>from scratch</em>, without
+                high-level ML libraries. Evaluated with MSE, RMSE, MAE and MAPE
+                metrics.
+              </p>
+              <a
+                href="https://github.com/SorryTea/neural-network-project"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                >View on GitHub →</a
+              >
+            </article>
+            <article class="project-card reveal" data-delay="1">
+              <div class="project-top">
+                <div>
+                  <h3>C# OOP Application</h3>
+                  <p class="project-tech mono">C# · OOP · Git</p>
+                </div>
+              </div>
+              <p class="project-desc">
+                Academic C# application focused on object-oriented programming
+                principles, including class design, object relationships and
+                core application logic. Applied encapsulation, inheritance,
+                polymorphism and modular code organisation throughout the
+                project.
+              </p>
+              <a
+                href="https://github.com/kawalerski-ja/agro-business"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                >View on GitHub →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Education & Activity ───────────────────── -->
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-tag">
+              <span class="mono">04</span> Education
+            </div>
+            <h2>Background &amp; <em>involvement</em></h2>
+          </div>
+
+          <div class="timeline">
+            <div class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <span class="tl-date mono">2024 — present</span>
+                <h3>AGH University of Science and Technology</h3>
+                <p class="tl-role">Computer Science and Econometrics</p>
+                <p>Faculty of Management · Kraków, Poland</p>
+              </div>
+            </div>
+
+            <div class="tl-item reveal" data-delay="1">
+              <div class="tl-dot"></div>
+              <div class="tl-body">
+                <span class="tl-date mono">2026 — present</span>
+                <h3>KN Mentor — Student Research Club</h3>
+                <p class="tl-role">Member</p>
+                <p>
+                  Participation in student projects focused on technology, data
+                  analysis and practical problem solving. Team cooperation,
+                  project communication, and work on software and data-driven
+                  business applications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Contact ────────────────────────────────── -->
+      <section class="section alt-section" id="contact">
+        <div class="container">
+          <div class="section-head reveal">
+            <div class="section-tag"><span class="mono">05</span> Contact</div>
+            <h2>Let's <em>connect</em></h2>
+          </div>
+          <p class="contact-desc reveal" data-delay="1">
+            Open to IT internship and trainee opportunities. Available for
+            collaborative projects and conversations about tech, data and
+            backend development.
+          </p>
+
+          <div class="contact-row reveal" data-delay="2">
+            <a href="mailto:yaroslavkhomko@gmail.com" class="contact-card">
+              <span class="contact-label mono">Email</span>
+              <span class="contact-value">yaroslavkhomko@gmail.com</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yaroslav-khomko-07047a34a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+            >
+              <span class="contact-label mono">LinkedIn</span>
+              <span class="contact-value">yaroslav-khomko</span>
+            </a>
+            <a
+              href="https://github.com/SorryTea"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="contact-card"
+            >
+              <span class="contact-label mono">GitHub</span>
+              <span class="contact-value">SorryTea</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ── Footer ─────────────────────────────────── -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© 2026 Yaroslav Khomko</span>
+        <span class="footer-loc">Kraków, Poland</span>
+        <span>Handcrafted with HTML, CSS &amp; JS</span>
+      </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
